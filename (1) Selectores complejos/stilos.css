@@ -1,0 +1,39 @@
+#pregunta1, #pregunta2, #pregunta3, #pregunta4, #pregunta5, #pregunta6 {
+    color: purple;
+}
+
+.comentarios{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: thin dotted #AC8159;
+    font-style: italic;
+    
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+p:nth-of-type(5){
+    text-decoration: underline;
+}
+
+#pregunta3 > .negrita {
+    background-color: yellow;
+}
+
+li > a:first-child{
+    background-color: purple;
+}
+
+td[rowspan="2"], td[colspan="2"] {
+    background-color: #234E54;
+}
+
+td[colspan="3"], td[rowspan="3"] {
+    background-color: #ACA759;
+}
+
+td[colspan="4"],  td[rowspan="4"] {
+    background-color: #CEA885;
+}

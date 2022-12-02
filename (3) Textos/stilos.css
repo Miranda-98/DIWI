@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family=Bangers&display=swap');
+
 p:first-of-type{
     font-style: italic;
     font-weight: bold;
@@ -24,5 +26,8 @@ h3{
 .clase{
     color: purple;
     font-style: italic;
-    font;
+}
+
+.idparaestilo {
+    font-family: "Constantia", monospace;
 }

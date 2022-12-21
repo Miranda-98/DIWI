@@ -1,0 +1,25 @@
+body{
+    background-image: url("madrid.jpg");
+}
+
+/* .logo{
+    width: 300px;
+    height: 300px;
+}
+
+#contenedor {
+    width: 600px;
+    height: 200px;
+    background-color: yellow;
+} */
+#img {
+    width: 300px;
+    height: 300px;
+}
+
+#contenedor {
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    box-shadow: 10px 5px 10px 5px ;
+}

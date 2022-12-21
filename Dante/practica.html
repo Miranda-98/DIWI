@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="stilo.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #contenedor{
+        background-color: black;
+        height: 9999px;
+    }
+
+    #contenedor div:nth-child(1){
+        background-color: silver;
+        float: right;
+        z-index: 0;
+    }
+
+    #contenedor div:nth-child(2){
+        background-color: blue;
+        z-index: 1;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    #contenedor div:nth-child(3){
+        background-color: red;
+        float: left;
+        margin-left: 0%;
+    }
+
+    #caja{
+        height: 200px;
+        width: 200px;
+        position: sticky;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+</style>
+<body>
+    <div id="contenedor"> 
+        <div id="caja"> </div>
+        <div id="caja"> </div>
+        <div id="caja"> </div>
+    </div>
+</body>
+</html>

@@ -27,7 +27,13 @@ p.titulo {
 	height: 1.5em;
 	vertical-align: middle;
 }
-{ /* Hay que conseguir que este estilo se aplique al posicionarse sobre el elemento con contenido LMSGI */
+
+p{
+	background-color: #F9DDC3;
+}
+div a{ /* Hay que conseguir que este estilo se aplique al posicionarse sobre el elemento 
+	con contenido LMSGI */
 	font-weight: bold;
 	color: #FFF;
 }
+

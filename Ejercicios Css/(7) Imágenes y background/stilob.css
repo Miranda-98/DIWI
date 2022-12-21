@@ -1,0 +1,18 @@
+#fondo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+}
+
+#contenedor {
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    box-shadow: 10px 5px 10px 5px ;
+}

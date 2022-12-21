@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .pepe1{
+        
+        border: solid 5px;
+        width: 70px;
+        height: 70px;
+        border-image: linear-gradient(to right, red , yellow)1;
+    }
+
+    .pepe2{
+        border-top: solid 5px;
+        border-bottom: solid 5px;
+        width: 90px;
+        height: 70px;
+        border-image: linear-gradient(to right, red , yellow)1;
+    }
+
+    .pepe3{
+        border-left: solid 5px;
+        border-right: solid 5px;
+        width: 90px;
+        height: 70px;
+        border-image: linear-gradient(to right, red , yellow)1;
+    }
+
+    .pepe4{
+        /* position: absolute;
+        z-index: 1;
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 50px 20px;
+        width: 50px;
+        height: 50px;
+        background-image: linear-gradient(to right, red , yellow)1; */
+        position: absolute;
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px; /*1*/
+        border: 10px solid transparent; /*2*/
+        background: linear-gradient(45deg,red,blue) border-box; /*3*/
+        -webkit-mask: /*4*/
+            linear-gradient(#fff 0 0) padding-box, 
+            linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor; /*5'*/
+        mask-composite: exclude; /*5*/
+
+    }
+
+    .pepe5{
+        background-image: url('foto.png');
+        width: 200px;
+        height: 200px;
+        border-radius: 80px 0px 80px 0px;
+
+    }
+    
+</style>
+<body>
+    <div class="pepe1">
+        Full gradient border
+    </div>
+    <br/>
+    <div class="pepe2">
+        Gradient border on just the horizontal sides
+    </div>
+    <br/>
+    <div class="pepe3">
+        Gradient border on just the vertical sides
+    </div>
+    <br>
+    <!--  -->
+    <div class="pepe5">
+        <!-- <img src="foto.png"> -->
+        pepe
+    </div>
+    
+    
+    
+</body>
+</html>

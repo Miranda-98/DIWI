@@ -1,0 +1,12 @@
+Overflow es para que trabajar con la propiedad de desbordamiento, barra de desplazamiento eje x e y
+Propiedades OverFlow
+- Visible 
+- Auto
+- Scroll
+- Hidden
+
+Overflow en imagenes
+si la imagen se sobrepone sobre el contenedor y se le pone hidden recorta la imagen para que no se 
+    sobreponga al contenedor y solo se muestre la parte de la imagen que esta dentro del contenedor
+si a la imagen se pone auto/scroll, aparecen las barras para desplazarte dentro del contenedor y ver
+    a parte de la imagen que no se ve en el contenedor

@@ -1,0 +1,2 @@
+Tipos Placeholder
+los mismos que los del input, text, password, color, selection

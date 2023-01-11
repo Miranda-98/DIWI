@@ -1,0 +1,14 @@
+.contenedor{
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+#caja1, #caja2, #caja3, #caja4, #caja5{
+    background-color: red;
+    width: 50px;
+    width: 50px;
+}
+
+#caja3{
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,7 @@
+Se usaba antiguamente para maquetar,  actualmente esta en deshuso
+
+si se tienen dos contenedores en bloque en linea y lo quieres poner en bloque
+    se le pone display:inline-block y width:50%;
+
+para que una imagen quede dentro de un texto de forma que el texto rodee la imagen
+    float: left|rigth|none y se juega con los margenes para que se aprecie más el cambio

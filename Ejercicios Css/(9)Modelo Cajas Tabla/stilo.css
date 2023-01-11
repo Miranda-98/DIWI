@@ -1,0 +1,50 @@
+table, td{
+    border: solid black 1px;
+}
+
+td{
+    width: 200px;
+    height: 200px;
+}
+
+tr > td{
+    float: left;
+}
+
+#espacio, #espacio2{
+    width: 10px;
+    height: 10px;
+    border: none;
+}
+
+/* fila 1 */
+tr:nth-child(2) > td:nth-child(2), tr:nth-child(2) > td:nth-child(4), tr:nth-child(2) > td:nth-child(6){
+    background-color: white;
+}
+
+/* fila 2 */
+tr:nth-child(4) > td:nth-child(2), tr:nth-child(4) > td:nth-child(4), tr:nth-child(4) > td:nth-child(6){
+    background-color: green;
+}
+
+/* fila 3 */
+tr:nth-child(6) > td:nth-child(2), tr:nth-child(6) > td:nth-child(4), tr:nth-child(6) > td:nth-child(6){
+    background-color: blue;
+}
+
+/* ocultos */
+tr:nth-child(2) > td:nth-child(4), tr:nth-child(4) > td:nth-child(2), tr:nth-child(4) > td:nth-child(6), tr:nth-child(6) > td:nth-child(4){
+    visibility: hidden;
+}
+
+/* mover la celda 5 y 9 */
+tr:nth-child(4) > td:nth-child(2), tr:nth-child(6) > td:nth-child(4){
+    position: absolute;
+}
+
+/* mover la celda 7 */
+tr:nth-child(6) > td:nth-child(2){
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}

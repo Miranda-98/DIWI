@@ -1,0 +1,9 @@
+Necesitan de la propiedad content
+añade al elemento 'b' el content
+b::before{
+    content: "pepe"
+}
+
+b::after{
+    content: "pepe"
+}

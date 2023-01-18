@@ -1,0 +1,36 @@
+header{
+    border: solid rgb(215, 211, 211) 10px;
+    display: flex;
+}
+
+header > div{
+    border: solid black 1px;
+    background-color: #f2cca6;
+    flex-grow: 2;
+    height: 20px;
+    padding: 10px;
+}
+
+header > div:nth-child(1){
+    order: 1;
+}
+
+header > div:nth-child(4) {
+    flex-grow: 5;
+}
+
+/* ------------------------------------- */
+
+footer{
+    margin-top: 30px;
+    border: solid #009999 20px;
+    display: flex;
+}
+
+footer > div {
+    border: solid black 1px;
+    background-color: #f2cca6;
+    height: 200px;
+    flex-grow: 2;
+}
+

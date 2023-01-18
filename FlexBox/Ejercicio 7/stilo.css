@@ -1,0 +1,109 @@
+/* color de la cabecera/pie y ancho */
+header, footer{
+    background-color:  #3c4e5f;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+
+/* darle borde al logo y a los links */
+header > div, header > nav {
+    border: solid black 1px;
+}
+
+/* 'FalconMaster' */
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.logo > a{
+    color: white;
+    text-decoration: none;
+}
+
+/* botones de la cabecera */
+.links {
+    display: flex;
+    margin-right: 0px;
+}
+
+/* ajustar tamaño de los botones de los links */
+.links > a:nth-child(3){display: flex; width: 100px;}
+
+/* propiedadas de los botones de la cabecera */
+.links > a {
+    display: flex;
+    border: solid gray 1px;
+    background-color: rgb(228, 60, 60);
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    margin-top: 20px; 
+}
+
+/* cuerpo del documento */
+section{
+    background-color: red; /* borrar linea */
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+article{
+    background-color: green;
+    margin-left: 15px;
+    border-bottom: solid black 1px;
+}
+
+.titulo{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* tablero de ajedrez no funciona nada */
+aside{
+    border: solid yellow 25px;
+    display: grid;
+}
+
+aside > .widget:nth-child(1){
+    background-color: orange;
+    width: 50px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.widget:nth-child(1) >.imagen:nth-child(2) {
+    
+}
+
+/* pie de pagina */
+footer{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.social{
+    display: flex; 
+    margin-right: 10px;
+}
+
+.social > a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #ff6600;
+}

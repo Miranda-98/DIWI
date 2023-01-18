@@ -1,0 +1,35 @@
+div, header, aside, article, footer, main{
+    border: solid black 1px;
+    margin: 10px;
+}
+
+#subcontainer {
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#subcontainer > aside, #subcontainer > article {
+    background-color: orange;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80px;
+    
+}
+
+div > main {
+    display: flex;
+    align-self: flex-end; /* mover la caja a la derecha */
+        
+}
+
+
+main {
+    position: relative;
+    background-color: green;
+    width: 500px;
+    height: 300px;
+ 
+}
+

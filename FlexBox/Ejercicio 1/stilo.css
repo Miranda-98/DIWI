@@ -8,18 +8,12 @@ ul, li{
     list-style: none;
 }
 
-ul{
-    list-style: none;
-    
-}
-
 li{
     background-color: orangered;
-    display: block;
     width: 100px;
     height: 80px;
-    display: flex;
     color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;

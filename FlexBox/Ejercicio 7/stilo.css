@@ -53,12 +53,14 @@ section{
     display: flex;
     flex-direction: row;
     margin-left: 10px;
+    flex: 1 1 70%;
 }
 
 article{
     background-color: green;
     margin-left: 15px;
     border-bottom: solid black 1px;
+    flex: 1 1 30%;
 }
 
 .titulo{

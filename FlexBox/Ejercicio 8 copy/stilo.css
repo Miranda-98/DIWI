@@ -1,0 +1,80 @@
+/* poder borde a todos los elementos */
+div, header, aside, article, footer, main{
+    border: solid black 1px;
+    margin: 10px;
+}
+
+/* formato de la cabecera y del pie de pagina*/
+header, footer{
+    height: 50px;
+}
+
+
+#subcontainer {
+    display: flex;;
+    flex-wrap: wrap;
+}
+
+#flexcontainer{
+    
+}
+
+aside, article {
+    background-color: green;
+    display: flex;
+
+    ;
+}
+
+article {
+    align-self: center;
+}
+
+
+
+#subcontainer > main{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    ;
+}
+
+
+
+
+
+
+
+
+/*
+#subcontainer {
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#subcontainer > aside, #subcontainer > article {
+    background-color: orange;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80px;
+    
+}
+
+div > main {
+    display: flex;
+    align-self: flex-end; // mover la caja a la derecha 
+        
+}
+
+
+main {
+    position: relative;
+    background-color: green;
+    width: 500px;
+    height: 300px;
+ 
+}
+
+*/

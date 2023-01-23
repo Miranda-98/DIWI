@@ -1,35 +1,51 @@
+
+#flexcontainer {
+    height: 500px;
+}
+
+/* poder borde a todos los elementos */
 div, header, aside, article, footer, main{
     border: solid black 1px;
     margin: 10px;
 }
 
+/* formato de la cabecera y del pie de pagina*/
+header, footer{
+    height: 50px;
+}
+
+
 #subcontainer {
-    background-color: violet;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    height: 350px;
 }
 
 #subcontainer > aside, #subcontainer > article {
-    background-color: orange;
     display: flex;
-    flex-direction: column-reverse;
-    width: 80px;
-    
+    width: 200px;
 }
 
-div > main {
+aside {
+    height: 80px;
+}
+
+article {
+    height: 200px;
+}
+
+
+main{
+    margin-top: -315px;
+    margin-left: 870px;
     display: flex;
-    align-self: flex-end; /* mover la caja a la derecha */
-        
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 40%;
+
 }
 
-
-main {
-    position: relative;
-    background-color: green;
-    width: 500px;
-    height: 300px;
- 
+.caja-flex {
+    width: 120px;
+    height: 50px;;
 }
-

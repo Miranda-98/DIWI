@@ -1,0 +1,14 @@
+MODELO DE CAJAS
+    - padding solo cosas transparentes, ya que solo rellena
+    - box-sizing: evita que se sumen los margin a los padding y los bordes
+    - tipos de bordes: solid | dashed | dotted | double | inset | outset | groove | ridge
+    - box-shadow : abajo derecha tamaño color
+
+MAQUETACIÓN CON CAPAS
+    - position: static | relative | absolute | fixed | sticky
+        static -> por defecto
+        relative -> sigue el flujo del html (no solapa cosas)
+        absolute -> toma por refencia por defecto la esquina del body (solapa cosas)
+        fixed -> toma por refencia los marcos del navegador, deja el elemento fijo en un punto por mucho que hagas scroll
+        sticky -> el elemento se desplaza con el scroll hasta el limite fijado por el top, left, right, bottom
+        

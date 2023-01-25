@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float 3</title>
+</head>
+<style>
+    #contenedor {
+        background-color: grey;
+        width: 650px;
+        height: 550px;
+        margin-top: 25px;
+        margin-left: 25px;
+        position: relative;
+    }
+
+    #caja1, #caja2, #caja3 {
+        color: white;
+        font-size: 30px;
+        border: solid black 3px;
+        margin-left: 15px;
+    }
+
+    #caja1 {
+        background-color: red;
+        width: 120px;
+        height: 120px;
+    }
+
+    #caja2 {
+        background-color: green;
+        width: 150px;
+        height: 150px;
+        float: right;
+        position: absolute;
+        left: 200px;
+        top: 0px;
+    }
+
+    #caja3 {
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+        clear: both;
+        position: absolute;
+        top: 200px;
+    }
+</style>
+<body>
+    <div id="contenedor">
+        <div id="caja1">Caja 1</div>
+        <div id="caja2">Caja 2</div>
+        <div id="caja3">Caja 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 2</title>
+</head>
+<style>
+    #contenedor{
+        background-color: aquamarine;
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #item {
+        background-color: peru;
+        width: 50px;
+        height: 50px;
+        border: solid white 1px;
+    }
+
+    #contenedor > div:nth-child(2) {
+        background-color: darkslateblue;
+        display: flex;
+        align-self: flex-end;
+        left: 50%;
+    }
+</style>
+<body>
+    <div id="contenedor">
+        <div id="item"> </div>
+        <div id="item"> </div>
+        <div id="item"> </div>
+    </div>
+</body>
+</html>

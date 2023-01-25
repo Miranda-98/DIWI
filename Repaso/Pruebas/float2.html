@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float 2</title>
+</head>
+<style>
+    
+    div[class*="caja-"] {
+        height: 200px;
+        padding: 50px;
+        color: #fff;
+        font-size: 32px;
+        border: solid white 1em;
+    }
+
+    .caja-1,
+    .caja-2,
+    .caja-3 {
+        width: 20em;
+        height: 200px;
+        background-color: #bb00bb;
+    }
+
+    .caja-4 {
+        background-color: #252525;
+        width: 70em;
+    }
+
+    .caja-5 {
+        width: 20em;
+        background-color: #6499fc;
+    }
+
+    .caja-6,
+    .caja-7,
+    .caja-8 {
+        width: 20em;
+        background-color: #ff0064;
+    }
+
+
+    .caja-1 {
+        float: left;
+    }
+    .caja-2{
+        float: left;
+    }
+    
+    .caja-3 {
+        float: left;
+    }
+
+    .caja-4 {
+        clear: both;
+    }
+
+    .caja-5 {
+        clear: both;
+    }
+
+    .caja-6, .caja-7, .caja-8 {
+        float: left;
+    }
+
+</style>
+
+<body>
+    <div class="caja-1">20%</div>
+    <div class="caja-2">20%</div>
+    <div class="caja-3">20%</div>
+
+    <div class="clear"></div>
+
+    <div class="caja-4">100%</div>
+
+    <div class="clear"></div>
+
+    <div class="caja-5">20%</div>
+
+    <div class="clear"></div>
+
+    <div class="caja-6">20%</div>
+    <div class="caja-7">20%</div>
+    <div class="caja-8">20%</div>
+</body>
+
+</html>

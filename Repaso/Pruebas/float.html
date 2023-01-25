@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+</head>
+<style>
+    #contenedor{
+        background-color: black;
+        width: 700px;
+        height: 400px;
+    }
+
+    #item1 {
+        background-color: aqua;
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+
+    #item2 {
+        background-color: darkgreen;
+        width: 80px;
+        height: 80px;
+        float: right;
+    }
+
+    #item3 {
+        background-color: deeppink;
+        width: 80px;
+        height: 80px;
+        clear: both;
+        float: left;
+    }
+
+    #item4 {
+        background-color: violet;
+        width: 80px;
+        height: 80px;   
+        float: right;
+        z-index: 5;
+    }
+
+</style>
+<body>
+    <div id="contenedor">
+        <div id="item1">caja 1</div>
+        <div id="item2">caja 2</div>
+        <div id="item3">caja 3</div>
+        <div id="item4">caja 4</div>
+    </div>
+</body>
+</html>

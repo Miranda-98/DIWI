@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetacion</title>
+</head>
+<style>
+    html {
+        font-size: 20px;
+        /* Para trabajar con rem */
+    }
+
+    div {
+        border: solid black 2px;
+        box-sizing: border-box;
+        width: 200px;
+        height: 200px;
+    }
+
+    #contenedor, #subcontenedor, #cabecera, #pie {
+        width: 100%;
+    }
+
+    #cabecera, #pie {
+        height: 40%;
+    }
+
+    #cabecera {
+        /* background-color: aqua; */
+    }
+
+    #subcontenedor {
+        /* background-color: lightcoral; */
+        height: 250%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #cont_menu {
+        /* background-color: lightcyan; */
+        height: 100%;
+        order: 1;
+    }
+
+    #contenido {
+        /* background-color: blue; */
+        display: flex;
+        height: 100%;
+        width: 100%;
+        order: 2;
+    }
+
+    #principal {
+        /* background-color: red; */
+        height: 90%;
+        width: 75%;
+        order: 3;
+    }
+
+    #secundario {
+        /* background-color: green; */
+        height: 90%;
+        width: 25%;
+        order: 4;
+    }
+
+    #pie {
+        /* background-color: darkseagreen; */
+    }
+
+</style>
+
+<body>
+    <div id="contenedor">
+        <div id="cabecera"> cabecera
+        </div>
+        <div id="subcontenedor">
+            <div id="cont_menu">
+                <div id="menu"></div>
+            </div>
+            <div id="contenido">
+                <div id="principal">
+                </div>
+                <div id="secundario">
+                </div>
+            </div>
+        </div>
+        <div id="pie">pie de pagina
+        </div>
+    </div>
+</body>
+
+</html>

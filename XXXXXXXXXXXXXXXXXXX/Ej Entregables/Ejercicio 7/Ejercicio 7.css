@@ -1,0 +1,160 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background: #ccc;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+    /*FLEX */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body{
+    background: #e9e9e9;
+}
+
+header{
+    background: #2c3e50;
+    width: 100%;
+    padding: 20px;
+
+        /*FLEX */
+    display: flex;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    flex-grow: 4;
+}
+
+header .logo a{
+    color: white;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    line-height: 20px; /* QUE ES ESTO????*/
+}
+
+header nav {
+     display: flex;
+}
+
+header nav a {
+    background: #c0392b;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+     /*FLEX */
+     flex-grow: 1;  /*Todos los elementos abarcan el 100% del elemento padre */
+
+}
+
+.main {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 70%; /*INVESTIGAR, posible para ejercicio 8? */
+}
+
+.main article {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+
+aside {
+    background: #e67e22;
+    padding: 20px;
+
+    /* flex */
+    flex: 1 1 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+aside .widget {
+    background: #d35400;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    color: #fff;
+    
+}
+/* para mover el elemento img flex 2 a la derecha que enrealidad lo estamos movieno hacia abajo */
+aside .widget:first-of-type .imagen{
+    align-self: end;
+} 
+/* para darle la vuelta a los elementos y se muestre primero el ultimo */
+aside .widget:last-child{
+
+    flex-direction: column-reverse;
+}
+/* para mover el elemento a la derecha */
+aside .widget:last-child .imagenarriba{
+    align-self: end;
+} 
+
+.imagenarriba, .imagen{
+    background:#ae1a09 ;
+    height: 50%;
+    width: 50%;
+}
+
+footer {
+    background: #2c3e50;
+    width: 100%;
+    padding: 20px;
+    
+    /* flex */
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .links {
+    background: #c0392b;
+
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .links a {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+
+    /* flex */
+    flex-grow: 1;
+}
+
+footer .social{
+    background: #e67e22;
+}
+
+footer .social a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+
+    /* flex */
+    display: inline-block;
+}

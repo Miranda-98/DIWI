@@ -1,0 +1,48 @@
+.contenedor, .caja1, .caja2 {
+    border: solid black 1px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.caja1, .caja2 {
+    height: 30%;
+    margin: 0.5em;
+}
+
+.contenedor {
+    height: 40rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.caja1 {
+    flex-grow: calc(7);
+    display: flex;
+    flex-direction: row;
+}
+
+.caja2 {
+    flex-grow: calc(3);
+}
+
+.item {
+    width: 33.33%;
+}
+
+.caja1 > div:nth-child(1), .caja1 > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caja1 > div:nth-child(3) {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}

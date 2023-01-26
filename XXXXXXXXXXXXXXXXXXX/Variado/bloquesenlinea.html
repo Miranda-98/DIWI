@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #contenedor{
+            width: 300px;
+            height: 5000px;
+            background: black;
+ 
+        }
+
+        #caja{
+            height: 100px;
+            width: 100px;
+        }
+
+        div:nth-child(1){
+            
+            background: red;
+            float: left; 
+            
+        }
+        div:nth-child(2){
+            /* float: right; */
+          
+            background: purple;
+            float: right;
+        }
+        div:nth-child(3){
+            background: green;
+            clear: both;
+            float: left;
+        }
+        div:nth-child(4){
+           float: right;
+           background: peru;
+           
+       }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="caja">1</div>
+        <div id="caja">2</div>
+        <div id="caja">3</div>
+        <div id="caja">4</div>
+    </div>
+
+</body>
+</html>

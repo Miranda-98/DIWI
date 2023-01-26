@@ -1,0 +1,53 @@
+#contenedor {
+    height: 500vh;
+}
+
+#cabecera{
+    width: 80%;
+    position: relative;
+    left: 150px; /******/
+}
+
+img {
+    position: relative;
+    float: right;
+    margin-top: 1.5rem;
+    width: 80px;
+    height: 80px;
+}
+
+#cabecera {
+    position: fixed;
+    border: solid blue 1px;
+    border-radius: 10%;
+    box-shadow : 5px 10px darkblue;
+    font-size: 30px;
+    height: 9rem;
+}
+
+p{
+    position: absolute;
+    transform: translate(0%,50%);
+    margin-left: 40px;
+}
+
+
+#contenedor2 {
+    width: 80%;
+    position: relative;
+    top: 2.7rem;
+    left: 150px; /******/
+}
+
+#contenedor2 > p::first-letter{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#contenedor2 > p{
+    border: solid black 1px;
+    font-style: italic;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 2;
+}

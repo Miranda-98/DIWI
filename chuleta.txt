@@ -12,3 +12,6 @@ MAQUETACIÓN CON CAPAS
         fixed -> toma por refencia los marcos del navegador, deja el elemento fijo en un punto por mucho que hagas scroll
         sticky -> el elemento se desplaza con el scroll hasta el limite fijado por el top, left, right, bottom
         
+
+
+<link rel="stylesheet" type="text/css" href="stilo.css" />

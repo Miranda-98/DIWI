@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #grid1 {
+        display: grid;
+        grid-template-areas: 
+            "cabecera cabecera cabecera cabecera"
+            "menu_i principal principal menu_d"
+            "menu_i recomendaciones recomendaciones menu_d"
+            "pie pie pie pie"
+        ;
+    }
+
+    #grid1 div:nth-child(1){
+        background-color: green;
+        grid-area: cabecera;
+    }
+
+    #grid1 div:nth-child(2){
+        background-color: pink;
+        grid-area: menu_i;
+    }
+
+    #grid1 div:nth-child(3){
+        background-color: darkolivegreen;
+        grid-area: principal;
+    }
+
+    #grid1 div:nth-child(4){
+        background-color: navy;
+        grid-area: recomendaciones;
+    }
+
+    #grid1 div:nth-child(5){
+        background-color: orangered;
+        grid-area: pie;
+    }
+
+    #grid1 div:nth-child(6){
+        background-color: blueviolet;
+        grid-area: menu_d;
+    }
+
+    
+
+</style>
+<body>
+    <div id="grid1">
+        <div>Cabecera</div>
+        <div>Menu_i</div>
+        <div>Principal<div id="grid1">
+            <div>Cabecera</div>
+            <div>Menu_i</div>
+            <div>Principal<div id="grid1">
+                <div>Cabecera</div>
+                <div>Menu_i</div>
+                <div>Principal</div>
+                <div>Recomendaciones</div>
+                <div>Pie</div>
+                <div>Menu_d</div>
+            </div></div>
+            <div>Recomendaciones</div>
+            <div>Pie</div>
+            <div>Menu_d</div>
+        </div></div>
+        <div>Recomendaciones</div>
+        <div>Pie</div>
+        <div>Menu_d</div>
+    </div>
+</body>
+</html>
